@@ -1,0 +1,8 @@
+Work supported by EPSRC grant EP/T019751/1
+©2021 AI for Sound (CVSSP - University of Surrey)
+
+Webpage:
+https://ai4s.surrey.ac.uk/
+
+Code, licenses, bug reports and feature requests:
+https://github.com/andres-fr/stt_gui

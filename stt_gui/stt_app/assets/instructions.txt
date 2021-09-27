@@ -1,0 +1,47 @@
+This is a tool for transcription and dictation tasks, powered by
+Python and Qt. It is intended to be of help whenever an online or
+external transcription service can't be used (e.g. due to
+constraints given by budget or Ethics protocols).
+
+It combines automated transcription, dictation and text edition
+in one single window. Specifically, the main components of the
+tool are:
+
+1. A text section (center body), with load/save, undo/redo and
+   the usual text edition functionality
+2. An audio section (right body) that supports dictating, loading
+   and playing various audio formats
+3. A plugin section (left body), that includes various
+   deep-learning based speech-to-text transcriptors
+
+
+The steps below illustrate a possible workflow:
+
+1. Load a (potentially very long) audio file containing speech by
+   clicking the "Load Audiofile" button. Several audio formats
+   are supported. It will be automatically selected when loaded.
+2. Play the audio file by clicking on the play button. Ensure
+   that the vertical bar (volume) is not at zero.
+3. Select the "Speech to text (Silero)" option on the combo box
+   at the profile section, and press "Add Profile" to create an
+   STT runner. It will also be automatically selected
+4. At this point, we have an audio file and an STT runner
+   selected. Clicking on the "Run Selected" button will start
+   the transcription process by opening a dialog window.
+5. Wait until transcription is finished (progress bar should
+   advance). When done, results will be presented. Click on
+   "Accept" to paste the results at the current location in the
+   text editor area.
+6. To dictacte, click on "Record Audio" and then "Record" to
+   start the recording. Clicking "Accept" will add the recording
+   to the audio list.
+7. The recorded audio can be transcribed the same way as the
+   loaded audio. Some STT profiles may have a record-and-run
+   mode. If active, you can skip step 6 altogether: with the
+   profile selected, simply press Ctrl+Enter and the recording
+   dialog will pop up. Once recorded, transcription will also
+   start automatically. This speeds up dictation and correction.
+
+
+This tool is a prototype. Please see the about section for more
+information, or any bug reports/inquiries. Thank you!
