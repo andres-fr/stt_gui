@@ -153,4 +153,5 @@ At this point all should be set, and the commands at the [usage](#usage) section
 ---
 
 <img src="assets/EPSRC_logo.png" alt="EPSRC logo" width="45%"/>
+
 *Work supported by EPSRC grant EP/T019751/1 (AI for Sound)*
