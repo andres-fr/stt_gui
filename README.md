@@ -2,8 +2,6 @@
 
 Graphical User Interface (GUI) tool that assists with transcription and dictation tasks, powered by Python+[Qt](https://www.qt.io/)
 
-![EPSRC logo](assets/EPSRC_logo.png)
-*Work supported by EPSRC grant EP/T019751/1 (AI for Sound)*
 
 ---
 
@@ -150,3 +148,9 @@ At this point all should be set, and the commands at the [usage](#usage) section
 - [ ] Integrate texteditor shortcuts with global shortcuts
 - [ ] Check if AudioRecorder Qt bug is fixed and update implementation: https://stackoverflow.com/a/67483225
 - [ ] Add CI/CD: GitHub actions, releases, PyPI, ReadTheDocs, Utest+CodeCov...
+
+
+---
+
+<img src="assets/EPSRC_logo.png" alt="EPSRC logo" width="45%"/>
+*Work supported by EPSRC grant EP/T019751/1 (AI for Sound)*
